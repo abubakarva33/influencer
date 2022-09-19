@@ -1,4 +1,84 @@
-p{
-    color: red;
-    font-size: 50px;
+*{
+    margin: 0px;
+    font-size: 20px;
 }
+a{
+    text-decoration: none;
+}
+a,:hover{
+
+}
+li{
+    list-style: none;
+}
+
+/* Header section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 100px;
+}
+.header-left{
+
+}
+.header-right nav ul{
+    display: flex;
+}
+.header-right nav ul a{
+    padding: 20px;
+}
+/* journey section */
+.journey{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 40px 100px;
+}
+.journey img{
+    width: 100%;
+}
+.journey-left h1{
+    font-size: 60px;
+    padding-top: 100PX;
+    padding-bottom: 20px;
+}
+.journey-left p{
+    padding-bottom: 40PX;
+
+}
+.journey-left a{
+    border: 1px solid grey;
+    background-color: #E02C6D;
+    padding: 20px;
+}
+.journey-right{
+
+}
+ /* Img list section */
+ .img-list{
+    /* display: flex; */
+ }
+ .img-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+
+ }
+ /* Collection section */
+ .collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 120px;
+    gap: 30px;
+    
+ }
+
+ .collection img{
+    width: 100%;
+ }
+
+ .collection > div{
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    padding: 20px;
+ }
